@@ -12,6 +12,7 @@ require (
 	github.com/lib/pq v1.9.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rs/cors v1.7.0
+	github.com/sqs/goreturns v0.0.0-20181028201513-538ac6014518
 	go.mongodb.org/mongo-driver v1.4.4
 	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a // indirect

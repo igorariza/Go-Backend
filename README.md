@@ -1,7 +1,7 @@
-### Good URL examples
-router.HandleFunc("/registro", middlew.ChequeoBD(routes.Registro)).Methods("POST")
-	router.HandleFunc("/login", middlew.ChequeoBD(routes.Login)).Methods("POST")
-## Login of users:
+### Good URL examples ##
+router.HandleFunc("/login", middlew.ChequeoBD(routes.Login)).Methods("POST") <br>
+router.HandleFunc("/registro", middlew.ChequeoBD(routes.Registro)).Methods("POST") 
+## Login users: ##
     * POST {{Ruta}}/login
     
     * Request body:
@@ -35,6 +35,8 @@ router.HandleFunc("/registro", middlew.ChequeoBD(routes.Registro)).Methods("POST
             "name_sede": "MANUELA BELTRAN"
         }
     }
+    
+    
 <!-- * List of users:
     * GET {{Ruta}}/api/users/users.json
 * Filtering is a query:
